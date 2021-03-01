@@ -49,16 +49,7 @@ public class CardParser
 		for(int i = 0; i < this.theMinions.size(); i++)
 		{
 			this.theMinions.get(i).display();
-			JSONArray obj;
-			if(obj instanceof JSONArray) {
-	            JSONArray array = (JSONArray)obj;
-	            for(int i1 = 0; i1 < array.size(); i1++) {
-	                JSONObject cardData = (JSONObject)array.get(i1);
-	                if(this.theMinions.get(i1).getCost() < 2) {
-	                    ArrayList theMinionsSorted;
-						theMinionsSorted.add(i1);
-	                    this.theMinions.remove(i1);
-	                    }
+		}
 	}
 	
 	public void sortLowestCostToHighestCost()
