@@ -43,6 +43,16 @@ public class CardParser
 		    }
 	    }
 	}
+	public static int binsearch(int[]list, int target)
+	{
+		int left = 0;
+		int right = list.length - 1;
+		
+		while(left <= right)
+			int middle = left +right) / 2;
+			if(target )
+		
+	}
 	
 	public void showMinions()
 	{
